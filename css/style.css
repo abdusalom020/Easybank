@@ -50,12 +50,12 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Public Sans', 'Arial', sans-serif;
-  background-color: #fff;
+  background-color: #fafafa;;
   color: var(--text-color);
   font-weight: normal;
   font-size: 18px;
   line-height: 28px;
-
+  margin-top: 80px;
 }
 
 img {
@@ -179,7 +179,8 @@ img {
 }
 
 .hero-section{
-  background-color: #fafafa;
+  position: relative;
+  
 }
 
 .bgimg{
@@ -190,12 +191,12 @@ img {
   background-size: contain;
   height: 1030px;
   background-repeat: no-repeat;
-  background-position: left calc(50% + 580px) top calc(50% + -150px);
+  background-position: left calc(50% + 580px) top calc(50% + -260px);
 }
 
 .hero-content {
   width: 450px;
-  padding-top: 246px;
+  padding-top: 170px;
   padding-bottom: 170px;
 }
 
